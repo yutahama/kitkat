@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "todo",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\yutah\\AndroidStudioProjects\\last\\amplify\\backend\\api\\todo\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-03-23T03:05:33.103Z",
+      "keyDescription": "todo api"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
